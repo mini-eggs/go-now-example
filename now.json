@@ -1,0 +1,6 @@
+{
+  "name": "go-now-example",
+  "version": 2,
+  "builds": [{ "src": "/zeit.go", "use": "@now/go" }],
+  "routes": [{ "src": "/(.*)", "dest": "/zeit.go" }]
+}
